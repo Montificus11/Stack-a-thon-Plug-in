@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stackathon-plugin - Standalone Plugin", "Stackathon-plugin_StandalonePlugin.vcxproj", "{342D8149-4673-BC39-DD03-0E3C6EE66F74}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4442F90-2782-923E-336A-B8021B8D6D99} = {C4442F90-2782-923E-336A-B8021B8D6D99}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stackathon-plugin - VST", "Stackathon-plugin_VST.vcxproj", "{C971624F-0C15-21C5-AEB6-3FE5AB2B0A97}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4442F90-2782-923E-336A-B8021B8D6D99} = {C4442F90-2782-923E-336A-B8021B8D6D99}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stackathon-plugin - VST3", "Stackathon-plugin_VST3.vcxproj", "{09F7BE51-E314-1D49-5EF9-6E8504BDEE97}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4442F90-2782-923E-336A-B8021B8D6D99} = {C4442F90-2782-923E-336A-B8021B8D6D99}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stackathon-plugin - Shared Code", "Stackathon-plugin_SharedCode.vcxproj", "{C4442F90-2782-923E-336A-B8021B8D6D99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C971624F-0C15-21C5-AEB6-3FE5AB2B0A97}.Debug|x64.ActiveCfg = Debug|x64
+		{C971624F-0C15-21C5-AEB6-3FE5AB2B0A97}.Debug|x64.Build.0 = Debug|x64
+		{C971624F-0C15-21C5-AEB6-3FE5AB2B0A97}.Release|x64.ActiveCfg = Release|x64
+		{C971624F-0C15-21C5-AEB6-3FE5AB2B0A97}.Release|x64.Build.0 = Release|x64
+		{09F7BE51-E314-1D49-5EF9-6E8504BDEE97}.Debug|x64.ActiveCfg = Debug|x64
+		{09F7BE51-E314-1D49-5EF9-6E8504BDEE97}.Debug|x64.Build.0 = Debug|x64
+		{09F7BE51-E314-1D49-5EF9-6E8504BDEE97}.Release|x64.ActiveCfg = Release|x64
+		{09F7BE51-E314-1D49-5EF9-6E8504BDEE97}.Release|x64.Build.0 = Release|x64
+		{342D8149-4673-BC39-DD03-0E3C6EE66F74}.Debug|x64.ActiveCfg = Debug|x64
+		{342D8149-4673-BC39-DD03-0E3C6EE66F74}.Debug|x64.Build.0 = Debug|x64
+		{342D8149-4673-BC39-DD03-0E3C6EE66F74}.Release|x64.ActiveCfg = Release|x64
+		{342D8149-4673-BC39-DD03-0E3C6EE66F74}.Release|x64.Build.0 = Release|x64
+		{C4442F90-2782-923E-336A-B8021B8D6D99}.Debug|x64.ActiveCfg = Debug|x64
+		{C4442F90-2782-923E-336A-B8021B8D6D99}.Debug|x64.Build.0 = Debug|x64
+		{C4442F90-2782-923E-336A-B8021B8D6D99}.Release|x64.ActiveCfg = Release|x64
+		{C4442F90-2782-923E-336A-B8021B8D6D99}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
